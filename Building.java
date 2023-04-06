@@ -16,7 +16,7 @@ public class Building {
         this.address = address; // Override address
     }
 
-    /* Overloaded constructor with name, address */
+    /* Overloaded constructor with the name, address */
     public Building(String name, String address) {
         this(name, address, 1); // Call full constructor with hard-coded # floors
     }
